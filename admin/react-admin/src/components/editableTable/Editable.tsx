@@ -6,14 +6,13 @@ export const Editable = () =>{
         <table>
             <thead>
                 <tr>
-                    <th>Tên khách hàng</th>
-                    <th>Tài khoản</th>
+                    <th>Court's Owner</th>
+                    <th>Court's Account</th>
                     <th>Email</th>
-                    <th>Điện thoại</th>
-                    <th>Địa chỉ</th>
-                    <th>Ngày sinh</th>
-                    <th>Giới tính</th>
-                    <th>Trạng thái</th>
+                    <th>Phone</th>
+                    <th>Court's Address</th>
+                    <th>Date registered</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,7 +21,6 @@ export const Editable = () =>{
                     </td>
                     <td>This is the main page</td>
                     <td><span>Live</span></td>
-                    <td><span><BsFill></></span></td>
                 </tr>
             </tbody>
         </table>
