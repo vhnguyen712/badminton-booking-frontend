@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.3",
     "cookie-parser": "^1.4.6",
+    "css": "^3.0.0",
     "dotenv": "^16.4.5",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
@@ -21,6 +22,7 @@
     "react-toastify": "^10.0.5",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
+    "sass": "^1.77.8",
     "universal-cookie": "^7.2.0",
     "web-vitals": "^2.1.4"
   },

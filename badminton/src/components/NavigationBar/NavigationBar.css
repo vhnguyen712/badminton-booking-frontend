@@ -1,0 +1,29 @@
+.login-wrapper,
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.navigation-bar {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-17xl) 0 0;
+  gap: var(--gap-24xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+@media screen and (max-width: 750px) {
+  .navigation-bar {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation-bar {
+    gap: var(--gap-2xl);
+  }
+}

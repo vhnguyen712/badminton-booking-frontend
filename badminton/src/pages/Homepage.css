@@ -1,0 +1,25 @@
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 1607px;
+  box-sizing: border-box;
+  gap: 109px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .homepage {
+    gap: 54px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homepage {
+    gap: 27px;
+  }
+}
